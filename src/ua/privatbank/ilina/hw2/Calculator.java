@@ -29,15 +29,13 @@ public class Calculator {
             case "/":
                 if (operand2 == 0) {
                     System.out.println("Error, you cannot divide by 0");
-
                 } else {
                     System.out.println(operand1 / operand2);
-                }   break;
-                    default:
-                        System.out.println("You entered an invalid arithmetic operation!" + "Allowable values:+,-,* or /");
-
                 }
-
-
+                break;
+            default:
+                System.out.println("You entered an invalid arithmetic operation! "
+                        + "Allowable values: +, -, * or /");
         }
     }
+}
