@@ -13,11 +13,11 @@ public class Interval {
             System.out.println("The entered number falls within the interval [0-14]");
         } else if (number >= 15 && number <= 35) {
             System.out.println("The entered number falls within the interval[15 - 35]");
-        }else if (number >= 36 && number <= 50) {
+        } else if (number >= 36 && number <= 50) {
             System.out.println("The entered number falls within the interval [36 - 50]");
         } else if (number >= 51 && number <= 100) {
             System.out.println("The entered number falls within the interval [51 - 100]");
-        } else{
+        } else {
             System.out.println("The number entered does not fall within any of our favorite ranges (");
         }
 
